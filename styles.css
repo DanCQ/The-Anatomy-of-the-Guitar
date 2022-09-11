@@ -1,0 +1,242 @@
+.acoustic {
+    background:linear-gradient(180deg, #D7CABC, #E9E1D9);
+    border-radius:5px;
+    box-shadow: 0 0 5px 1px #E9E1D9;
+    color:#4F334B;
+}
+
+body {
+    height:100%;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+.both { 
+    background:linear-gradient(180deg, #F3E4C7, #F9F0E0);
+    border-radius:5px;
+    box-shadow: 0 0 5px 1px #F3E4C7;
+    color:#465A5C;
+}
+
+.electric {
+    color:#23001E;
+    background:linear-gradient(180deg, #C5C1CB, #DCDAE0);
+    border-radius:5px;
+    box-shadow: 0 0 5px 1px #DCDAE0;
+    text-shadow: 0px 1px 0.5px #FDE37D;
+}
+
+figcaption {
+    color:#38484A;
+    font-size:0.98rem;
+    padding-bottom:5px;
+}
+
+figure {
+    margin: 0 auto;
+    padding:0;
+    text-align: center;
+}
+
+img {
+    border-radius:5px;
+    width:310px;
+}
+
+h1 {
+    background-color: #23001E;
+    border-radius: 100px 10px 100px 10px;
+    color:wheat;
+    font-family: snell roundhand, luminari, savoye let;
+    margin: 20px auto 5px auto;
+    max-width: 700px;
+    min-width:250px;
+    padding: 6px 30px;
+    text-align:center;
+}
+
+header:not(#title) {
+    background-color: #23001E;
+    border-radius: 10px 10px 50px 0px;
+    color:#B0E6D1;
+    font-family:cochin;
+    font-weight:bold;
+    margin:0;
+    padding: 6px 12px;
+    text-align:center;
+}
+
+main {
+    background:linear-gradient(150deg,honeydew, powderblue 60%);
+    display: table;
+    height:100vh;
+    min-width:250px;
+    padding:5px 5px 30px 5px;
+    width:100vw;
+}
+
+.main_nav {
+    border-radius:5px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    font-family:monospace;
+    gap:5px;
+    margin:5px;
+    text-transform:uppercase;
+}
+
+.main_nav li {
+    background:linear-gradient(180deg, #C9A5A5, #D7BCBC);
+    border-top: 1px solid wheat;
+    border-radius:4px;
+    box-shadow: 0 0 5px 1px #D7BCBC;
+    padding:5px 10px;
+    width:fit-content;
+}
+
+.main_nav li a {
+    color:#B0E6D1;
+    text-shadow: 0 0 2px black;
+}
+
+#navbar {
+    background:linear-gradient(180deg, rosybrown 70%, #E4D2D2);
+    border-radius:15px 15px 10px 10px;
+    font-family:Cochin;
+    font-weight:bold;
+    margin:0 auto 5px;
+    text-align:center;
+}
+
+#navbar ul li { 
+    border-top: 1px solid wheat;
+    border-top-right-radius: 10px;
+    margin:0px auto;
+    padding:4px 15px;
+}
+
+#navbar ul li:last-of-type {
+    border-bottom: 1px solid wheat;
+    border-bottom-right-radius:10px;
+}
+
+#navbar ul li a {
+    color:#B0E6D1;
+    text-shadow: 0 0 2px black;
+}
+
+.nav-link, a {
+    text-decoration:none;
+}
+
+.notes { 
+    clear:both;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin:50px auto;
+    max-width: 1400px;
+}
+
+p {
+    font-family: cochin;
+    padding:0px 10px 10px 10px;
+    text-align: left;
+    text-indent: 2em;
+}
+
+#Photo_Reference {
+    background:linear-gradient(180deg, #E3DAD0 99.5%, #8DB3B8 0.5%);
+}
+
+section {
+    background-color:#E3DAD0;
+    border-radius:15px 15px 10px 10px;
+    position:relative;
+    margin:0px auto 10px auto;
+}
+
+.theme {
+    clear:both;
+    display:block;
+    font-family: cochin;
+    font-size:large;
+    font-weight:bold;
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+    padding-top:15px;
+    text-align:center;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+
+@media (min-width: 525px) {
+
+    body {
+        font-size:1.1rem;
+    }
+
+    img {
+        width:360px;
+     }
+
+    .main_nav {
+        font-size:16px;
+        justify-content:center;
+    }
+    
+    #navbar {
+        border-radius:15px 15px 150px 10px;
+        float:left;
+        margin: 21px 5px 0px 5px;
+        padding:0px 0px 85px 0px;
+        position:fixed;
+        text-align:left;
+    }
+    
+    section {
+        margin: 25px 5px 0px 170px;
+    }
+
+    ul {
+        margin:17.5px 0;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    body {
+        font-size:1.2rem;
+    }
+
+    img {
+       width:500px;
+    }
+
+    #navbar {
+        margin: 41px 20px 0px 10px;
+    }
+
+    p {
+        padding:5px 15px 25px 15px;
+    }
+
+    section {
+        margin: 45px 20px 0px 190px;
+        max-width: 1075px;
+        min-width:1000px;
+    }
+    
+    .theme {
+        padding-top: 20px;
+    }
+
+}
