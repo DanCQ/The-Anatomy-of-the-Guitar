@@ -19,6 +19,10 @@ body {
     color:#465A5C;
 }
 
+code {
+    font-size:15px;
+}
+
 .electric {
     color:#23001E;
     background:linear-gradient(180deg, #C5C1CB, #DCDAE0);
@@ -183,6 +187,10 @@ ul {
         font-size:1.1rem;
     }
 
+    code {
+        font-size:15px;
+    }
+
     img {
         width:360px;
      }
@@ -215,6 +223,10 @@ ul {
 
     body {
         font-size:1.2rem;
+    }
+
+    code {
+        font-size:15px;
     }
 
     img {
