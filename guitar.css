@@ -42,6 +42,17 @@ figure {
     text-align: center;
 }
 
+footer {
+    font-family: "zapfino";
+    font-size:small;
+    margin:2.5em 0;
+    text-align: center;
+}
+
+footer a {
+    color:#23001E;
+}
+
 img {
     border-radius:5px;
     width:310px;
