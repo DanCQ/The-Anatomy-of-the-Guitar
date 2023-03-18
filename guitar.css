@@ -53,9 +53,8 @@ footer a {
     color:#23001E;
 }
 
-img {
-    border-radius:5px;
-    width:310px;
+html {
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -83,6 +82,11 @@ header:not(#title) {
     margin:0;
     padding: 6px 12px;
     text-align:center;
+}
+
+img {
+    border-radius:5px;
+    width:310px;
 }
 
 main {
